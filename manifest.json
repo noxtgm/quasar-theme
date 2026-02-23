@@ -1,8 +1,8 @@
 {
-	"name": "QUASAR",
+	"name": "quasar-theme",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-    "author":"noxtgm",
-    "authorUrl":"https://noxtgm.me",
-    "fundingUrl":"https://ko-fi.com/noxtgm"
+    "author": "noxtgm",
+    "authorUrl": "https://noxtgm.me",
+    "fundingUrl": "https://ko-fi.com/noxtgm"
 }
