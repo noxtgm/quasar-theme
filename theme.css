@@ -8,6 +8,7 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--file-line-width: 800px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -32,3 +33,63 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+/* ===== Hidden Elements ===== */
+
+/* Hide metadata properties heading */
+.metadata-properties-heading {
+	display: none !important;
+}
+
+/* Hide left sidebar toggle (Desktop) */
+body:not(.is-mobile) .sidebar-toggle-button.mod-left {
+	display: none !important;
+}
+
+/* Hide right sidebar toggle (Desktop) */
+body:not(.is-mobile) .sidebar-toggle-button.mod-right {
+	display: none !important;
+}
+
+/* Hide titlebar button container right (Desktop) */
+body:not(.is-mobile) .titlebar-button-container.mod-right {
+	display: none !important;
+}
+
+/* Hide tab header tab list (Desktop) */
+body:not(.is-mobile) .workspace-tab-header-tab-list {
+	display: none !important;
+}
+
+/* Hide editing toolbar button in status bar (Desktop) */
+body:not(.is-mobile) .status-bar-item.editingToolbar-statusbar-button {
+	display: none !important;
+}
+
+/* Hide vault profile in side dock (Desktop) */
+body:not(.is-mobile) .workspace-sidedock-vault-profile,
+body:not(.is-mobile) .workspace-sidedock .workspace-sidedock-vault-profile,
+body:not(.is-mobile) .workspace-sidedock [class*="vault-profile"] {
+	display: none !important;
+	height: 0 !important;
+	min-height: 0 !important;
+	overflow: hidden !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	visibility: hidden !important;
+	pointer-events: none !important;
+}
+
+/* ===== Styled Elements ===== */
+
+/* Remove status bar background (Desktop) */
+body:not(.is-mobile) .status-bar {
+	background: var(--background-primary) !important;
+	border: none !important;
+	padding: 4px 2px 4px 4px !important;
+	border-top-left-radius: 8px !important;
+}
+
+/* ===== Readable Line Length ===== */
+/* Requires Settings → Editor → Readable line length: ON */
+/* Adjust --file-line-width and --readable-line-padding in body above */
