@@ -1,6 +1,6 @@
 # Quasar Theme
 
-Clean and minimal Obsidian theme designed for efficiency.
+Clean and minimal [Obsidian](https://obsidian.md/) theme designed for efficiency.
 
 > [!NOTE]
 > This plugin is in part designed to be paired with my [quasar theme](https://github.com/noxtgm/quasar-utilities) for enhanced functionality however it is fully functional on its own.
@@ -20,3 +20,4 @@ Clean and minimal Obsidian theme designed for efficiency.
 <br>
 
 <a href="https://ko-fi.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG00a3RqYTBzcmo2a2UxZGZ6bXl2dDY5Z2w0YmQ0Y2RxMWd0aWM4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/bZgsAwXUIVU2tcKn7s/giphy.gif" alt="Support me on Ko-fi" width="240" height="55"/></a>
+
