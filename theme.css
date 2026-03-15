@@ -8,7 +8,7 @@ body {
 	--toggle-radius: 12px;
 	--toggle-thumb-radius: 10px;
 	--slider-thumb-radius: 8px;
-	--file-line-width: 800px;
+	--file-line-width: 900px;
 }
 
 svg * {
@@ -37,18 +37,8 @@ svg * {
 	display: none !important;
 }
 
-/* Hide left sidebar toggle (Desktop) */
-body:not(.is-mobile) .sidebar-toggle-button.mod-left {
-	display: none !important;
-}
-
 /* Hide right sidebar toggle (Desktop) */
 body:not(.is-mobile) .sidebar-toggle-button.mod-right {
-	display: none !important;
-}
-
-/* Hide titlebar button container right (Desktop) */
-body:not(.is-mobile) .titlebar-button-container.mod-right {
 	display: none !important;
 }
 
@@ -57,8 +47,8 @@ body:not(.is-mobile) .workspace-tab-header-tab-list {
 	display: none !important;
 }
 
-/* Hide editing toolbar button in status bar (Desktop) */
-body:not(.is-mobile) .status-bar-item.editingToolbar-statusbar-button {
+/* Hide backlink counter in status bar (Desktop) */
+body:not(.is-mobile) .status-bar-item.plugin-backlink {
 	display: none !important;
 }
 
@@ -74,6 +64,12 @@ body:not(.is-mobile) .workspace-sidedock [class*="vault-profile"] {
 	padding: 0 !important;
 	visibility: hidden !important;
 	pointer-events: none !important;
+}
+
+/* Hide scrollbars (still scrollable) */
+::-webkit-scrollbar {
+	width: 0 !important;
+	height: 0 !important;
 }
 
 /* ===== Styled Elements ===== */
