@@ -2,9 +2,6 @@
 
 Clean and minimal [Obsidian](https://obsidian.md/) theme designed for efficiency.
 
-> [!NOTE]
-> This plugin is in part designed to be paired with my [quasar utilities](https://github.com/noxtgm/quasar-utilities) for enhanced functionality however it is fully functional on its own.
-
 ## 📖 Installation
 
 * Download the latest [release](https://github.com/noxtgm/quasar-theme/releases)
